@@ -19,8 +19,8 @@
     "typescript": "^3.2.2"
   },
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup --config rollup.config.js -w --bundleConfigAsCjs",
+    "build": "rollup --config rollup.config.js --bundleConfigAsCjs",
+    "dev": "rollup --config rollup.config.js --bundleConfigAsCjs -w",
     "test": "ts-node test/test.ts",
     "pretest": "npm run build"
   },
