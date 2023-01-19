@@ -12,3 +12,5 @@ function howLongUntilLunch(hours = 12, minutes = 30): string {
 }
 
 howLongUntilLunch()
+
+export default howLongUntilLunch
