@@ -16,7 +16,14 @@
     "@types/ms": "^0.7.30",
     "ts-node": "^7.0.1",
     "tslib": "^1.9.3",
-    "typescript": "^3.2.2"
+    "husky": "^8.0.0",
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "@duiyuan/commitlint-config": "^0.1.0",
+    "@duiyuan/eslint-config": "^0.1.3",
+    "prettier": "^2.6.2",
+    "eslint": "^8.14.0",
+    "typescript": "^4.3.2"
   },
   "scripts": {
     "build": "rollup --config rollup.config.js --bundleConfigAsCjs",
