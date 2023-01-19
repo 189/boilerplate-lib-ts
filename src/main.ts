@@ -1,8 +1,14 @@
-import ms from 'ms';
-import lunchtime from './lunchtime.js';
-import millisecondsUntil from './millisecondsUntil.js';
+import ms from "ms";
+import lunchtime from "./lunchtime";
+import millisecondsUntil from "./millisecondsUntil";
 
-export default function howLongUntilLunch(hours: number = 12, minutes: number = 30): string {
-	const millisecondsUntilLunchTime = millisecondsUntil(lunchtime(hours, minutes));
-	return ms(millisecondsUntilLunchTime, { long: true });
+function howLongUntilLunch(hours: number = 12, minutes: number = 30): string {
+  const millisecondsUntilLunchTime = millisecondsUntil(
+    lunchtime(hours, minutes)
+  );
+  const result = ms(millisecondsUntilLunchTime, { long: true });
+  console.log(result);
+  return result;
 }
+
+howLongUntilLunch();
