@@ -1,0 +1,38 @@
+{
+  "name": "<%=name%>",
+  "version": "1.1.2",
+  "main": "dist/<%=name%>.cjs.js",
+  "module": "dist/<%=name%>.esm.js",
+  "browser": "dist/<%=name%>.umd.js",
+  "description": "<=description>",
+  "homepage": "https://github.com/189/boilerplate-lib-ts",
+  "author": "<=author>",
+  "scripts": {
+    "build": "rollup --config rollup.config.js --bundleConfigAsCjs",
+    "dev": "rollup --config rollup.config.js --bundleConfigAsCjs -w",
+    "test": "ts-node test/test.ts",
+    "pretest": "npm run build",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "ms": "^2.0.0",
+    "rollup": "^3.10.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "@duiyuan/commitlint-config": "^0.1.0",
+    "@duiyuan/eslint-config": "^0.1.3",
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/ms": "^0.7.30",
+    "eslint": "^8.14.0",
+    "husky": "^8.0.0",
+    "prettier": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "tslib": "^1.9.3",
+    "typescript": "^4.3.2"
+  }
+}
