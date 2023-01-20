@@ -1,10 +1,10 @@
 {
-  "name": "@helo-cli/rollup-lib-ts",
+  "name": "@helo-boilerplate/lib-ts",
   "version": "1.0.0",
   "main": "dist/main.cjs.js",
   "module": "dist/main.esm.js",
   "browser": "dist/main.umd.js",
-  "homepage": "https://github.com/189/rollup-lib-ts",
+  "homepage": "https://github.com/189/boilerplate-lib-ts",
   "author": "shangwenwang20@gmail.com",
   "scripts": {
     "build": "rollup --config rollup.config.js --bundleConfigAsCjs",
