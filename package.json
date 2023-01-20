@@ -1,5 +1,5 @@
 {
-  "name": "rollup-lib-ts",
+  "name": "@helo-cli/rollup-lib-ts",
   "version": "1.0.0",
   "main": "dist/main.cjs.js",
   "module": "dist/main.esm.js",
