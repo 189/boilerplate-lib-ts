@@ -18,7 +18,7 @@ jobs:
           node-version: 14
           registry-url: 'https://registry.npmjs.org'
           scope: '@helo-cli'
-          cache: 'pnpm'
+          cache: 'npm'
 
       - name: Configure committer
         run: |
