@@ -1,15 +1,18 @@
-const questions = {
-  name: {
-    desc: 'project name',
+const prompts = [
+  {
+    key: 'name',
+    question: 'project name',
   },
-  description: {
-    desc: 'project description',
+  {
+    key: 'description',
+    question: 'project description',
   },
-  author: {
-    desc: 'project author',
+  {
+    key: 'author',
+    question: 'project author',
   },
-}
+]
 
 module.exports = {
-  questions,
+  prompts,
 }
