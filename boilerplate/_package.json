@@ -4,9 +4,9 @@
   "main": "dist/{{name}}.cjs.js",
   "module": "dist/{{name}}.esm.js",
   "browser": "dist/{{name}}.umd.js",
-  "description": "<=description>",
+  "description": "{{description}}",
   "homepage": "https://github.com/189/boilerplate-lib-ts",
-  "author": "<=author>",
+  "author": "{{author}}",
   "scripts": {
     "build": "rollup --config rollup.config.js --bundleConfigAsCjs",
     "dev": "rollup --config rollup.config.js --bundleConfigAsCjs -w",
