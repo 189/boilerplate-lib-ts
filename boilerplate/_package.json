@@ -11,8 +11,7 @@
     "build": "rollup --config rollup.config.js --bundleConfigAsCjs",
     "dev": "rollup --config rollup.config.js --bundleConfigAsCjs -w",
     "test": "ts-node test/test.ts",
-    "pretest": "npm run build",
-    "prepare": "husky install"
+    "pretest": "npm run build"
   },
   "dependencies": {
     "@types/node": "^18.11.18",
