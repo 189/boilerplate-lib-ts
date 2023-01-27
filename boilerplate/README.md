@@ -1,4 +1,4 @@
-# rollup-lib-ts
+# {{name}}
 
 ### Install
 
